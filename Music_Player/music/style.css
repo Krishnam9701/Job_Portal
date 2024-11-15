@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.all-songs, .song-card, .playlist {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.all-songs h2, .playlist h2 {
+    margin-top: 0;
+}
+
+#song-list button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: white;
+}
+
+.dark-theme .container {
+    background-color: #555;
+}
+
+.dark-theme button {
+    background-color: #444;
+}
+/* Default (Light) Theme */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+.song-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header.dark-theme {
+    background-color: #333333;
+}
+
+.container.dark-theme {
+    background-color: #222222;
+}
+
+.song-card.dark-theme img {
+    border: 2px solid #444444;
+}
+
